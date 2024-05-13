@@ -1,0 +1,38 @@
+/* individual 
+h2 {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightgreen;
+  }*/
+
+/* shorthand 
+h2 {
+  border: 1px solid black;
+  margin: 100px 300px 300px 300px;
+  background-color: lightblue;
+}
+h3 {
+    border: 1px solid black;
+    margin: 25px 50px 75px;
+    background-color: lightcoral;
+}*/
+
+/* auto value 
+p {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}*/
+
+/* inherit value */
+  div {
+    border: 1px solid red;
+    margin-left: 100px;
+  }
+  
+  p.contoh1 {
+    margin-left: inherit;
+  }
