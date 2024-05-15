@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Operators</title>
+</head>
+<body>
+<div id="output"></div>
+
+<script>
+  // Aritmatika
+  a = 10;
+  b = 5;
+  addition = a + b;
+  subtraction = a - b;
+  multiplication = a * b;
+  division = a / b;
+  modulus = a % b;
+
+  // Pemberian nilai (Assign)
+  x = 10;
+  y = x;
+
+  // Pemanipulasi bit (Bitwise)
+  bitwiseAnd = a & b;
+  bitwiseOr = a | b;
+  bitwiseXor = a ^ b;
+  bitwiseNotA = ~a;
+  bitwiseShiftLeft = a << 1;
+  bitwiseShiftRight = a >> 1;
+
+  // Pembanding
+  isEqual = a == b;
+  isNotEqual = a != b;
+  isGreater = a > b;
+  isLess = a < b;
+  isGreaterOrEqual = a >= b;
+  isLessOrEqual = a <= b;
+
+  // Logika
+  logicalAnd = (a > 5) && (b < 10);
+  logicalOr = (a < 5) || (b > 10);
+  logicalNot = !(a == b);
+
+  // String
+  stringConcatenation = "Hello" + " " + "World";
+  
+  // Menampilkan hasil di halaman
+  document.getElementById("output").innerHTML = 
+    "Addition: " + addition + "<br>" +
+    "Subtraction: " + subtraction + "<br>" +
+    "Multiplication: " + multiplication + "<br>" +
+    "Division: " + division + "<br>" +
+    "Modulus: " + modulus + "<br>" +
+    "Assign: " + y + "<br>" +
+    "Bitwise AND: " + bitwiseAnd + "<br>" +
+    "Bitwise OR: " + bitwiseOr + "<br>" +
+    "Bitwise XOR: " + bitwiseXor + "<br>" +
+    "Bitwise NOT (a): " + bitwiseNotA + "<br>" +
+    "Bitwise Shift Left: " + bitwiseShiftLeft + "<br>" +
+    "Bitwise Shift Right: " + bitwiseShiftRight + "<br>" +
+    "Equal: " + isEqual + "<br>" +
+    "Not Equal: " + isNotEqual + "<br>" +
+    "Greater: " + isGreater + "<br>" +
+    "Less: " + isLess + "<br>" +
+    "Greater or Equal: " + isGreaterOrEqual + "<br>" +
+    "Less or Equal: " + isLessOrEqual + "<br>" +
+    "Logical AND: " + logicalAnd + "<br>" +
+    "Logical OR: " + logicalOr + "<br>" +
+    "Logical NOT: " + logicalNot + "<br>" +
+    "String Concatenation: " + stringConcatenation;
+</script>
+</body>
+</html>
