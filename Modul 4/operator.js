@@ -35,15 +35,15 @@ document.write("Apakah p lebih besar dari q? " + (p > q) + "<br>");
 document.write("Apakah p sama dengan q? " + (p === q) + "<br>");
 */
 
-//logika
-// Contoh operator AND
-const x = 10;
-        const y = 5;
+/*logika
+    "use strict";
+    let hour = 9;
+    
+    if (hour < 10 || hour > 18) {
+      alert( 'The office is closed.' );
+    }
 
-        const resultAnd = x > 5 && y < 8; // true jika keduanya benar
-        const resultOr = x > 12 || y < 3; // true jika salah satunya benar
-        const resultNot = !resultAnd; // negasi dari resultAnd
-
-        console.log("Hasil AND:", resultAnd);
-        console.log("Hasil OR:", resultOr);
-        console.log("Hasil NOT:", resultNot);
+/*string
+let str1 = "Monica"; 
+let str2 = "Zefanya"; 
+let result = (str1 + str2); 

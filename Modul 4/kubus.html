@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume Kubus</title>
+</head>
+<body>
+    <h1>Perhitungan Volume Kubus</h1>
+    <label for="sideLength">Panjang Sisi (s):</label>
+    <input type="number" id="sideLength">
+    <button onclick="calculateCubeVolume()">Hitung</button>
+    <p id="result"></p>
+
+    <script>
+        function calculateCubeVolume() {
+            const sideLength = parseFloat(document.getElementById("sideLength").value);
+            const volume = sideLength ** 3;
+            document.getElementById("result").textContent = `Volume kubus: ${volume}`;
+        }
+    </script>
+</body>
+</html>

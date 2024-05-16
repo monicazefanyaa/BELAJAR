@@ -1,0 +1,16 @@
+<h1>Perhitungan Volume Tabung</h1>
+<label for="radius">Jari-Jari Alas (r):</label>
+<input type="number" id="radius">
+<label for="height">Tinggi (h):</label>
+<input type="number" id="height">
+<button onclick="calculateCylinderVolume()">Hitung</button>
+<p id="cylinderResult"></p>
+
+<script>
+    function calculateCylinderVolume() {
+        const radius = parseFloat(document.getElementById("radius").value);
+        const height = parseFloat(document.getElementById("height").value);
+        const volume = Math.PI * radius ** 2 * height;
+        document.getElementById("cylinderResult").textContent = `Volume tabung: ${volume.toFixed(2)}`;
+    }
+</script>

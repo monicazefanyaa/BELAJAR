@@ -1,0 +1,19 @@
+<h1>Perhitungan Volume Balok</h1>
+<label for="length">Panjang (p):</label>
+<input type="number" id="length">
+<label for="width">Lebar (l):</label>
+<input type="number" id="width">
+<label for="height">Tinggi (t):</label>
+<input type="number" id="height">
+<button onclick="calculateRectangularVolume()">Hitung</button>
+<p id="rectangularResult"></p>
+
+<script>
+    function calculateRectangularVolume() {
+        const length = parseFloat(document.getElementById("length").value);
+        const width = parseFloat(document.getElementById("width").value);
+        const height = parseFloat(document.getElementById("height").value);
+        const volume = length * width * height;
+        document.getElementById("rectangularResult").textContent = `Volume balok: ${volume}`;
+    }
+</script>
